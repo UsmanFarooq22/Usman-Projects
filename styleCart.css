@@ -1,0 +1,60 @@
+header {
+    display: flex; width: 100%; background-color: firebrick;
+    border-block: 5px solid rgb(17, 17, 17);
+   
+
+}
+body {
+    font-family:sans-serif;
+    
+}
+
+.myNav{
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color:firebrick;
+    list-style-type: none;
+   
+}
+.navList{
+    text-align:center;
+    font-size: 1.5em;
+    padding: 0.1em;
+    margin: 2em;
+
+}
+.navList a {
+    text-decoration: none ; color: ghostwhite
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .cart table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .cart th,
+  .cart td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  @media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .main-content {
+      width: 100%;
+    }
+  }

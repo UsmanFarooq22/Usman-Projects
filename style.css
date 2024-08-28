@@ -1,0 +1,110 @@
+
+header { /* Style for the header section */
+    display: flex; width: 100%; background-color: #be1622;
+    border-block: 5px solid rgb(17, 17, 17);
+   
+
+}
+body { /* font type for whole of the page */
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.myNav{ /* top bar navigation section */
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color:#be1622;
+    list-style-type: none;
+   
+}
+.navList{ /* text alignment for the top bar */
+    text-align:center;
+    font-size: 1.5em;
+    padding: 0.1em;
+    margin: 2em;
+
+}
+.navList a { /* decaration the text of navigation bar */
+    text-decoration: none ; color: ghostwhite
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    cursor: pointer;
+  }
+  
+
+h1 {  /* colour of the text of tittle*/
+    color: #007fb0;
+}
+
+h2 { /* colour of the text of tittle*/
+    color: #f2be1a;
+}
+h3
+{
+    color: black;
+}
+/* Container holding the offers */
+
+
+
+footer { /* footer decoration */
+    background-color: #34516c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.links, .contact, .location {
+    margin-bottom: 20px;
+}
+
+.links {
+   
+    padding: 10px;
+}
+
+.contact {
+    
+    padding: 10px;
+}
+
+.location {
+    
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .main-content {
+      width: 100%;
+    }
+  } /* Responsive layout for smaller screens */
+
+
+
+
+    
+
+
+
+
+
+

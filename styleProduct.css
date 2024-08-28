@@ -1,0 +1,113 @@
+header { /* Style for the header section */
+    display: flex; width: 100%; background-color: #be1622;
+    border-block: 5px solid rgb(17, 17, 17);
+   
+
+}
+body { /* font type for whole of the page */
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.myNav{ /* top bar navigation section */
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color:#be1622;
+    list-style-type: none;
+   
+}
+.navList{ /* text alignment for the top bar */
+    text-align:center;
+    font-size: 1.5em;
+    padding: 0.1em;
+    margin: 2em;
+
+}
+.navList a { /* decaration the text of navigation bar */
+    text-decoration: none ; color: ghostwhite
+}
+
+h1 {  /* colour of the text of tittle*/
+    color: #007fb0;
+}
+
+h2 { /* colour of the text of tittle*/
+    color: #f2be1a;
+}
+
+.smalist{  /* navigation for the product type*/
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    display: grid;
+
+}
+
+.container{ /* product card box*/
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 2rem;
+ }
+ .container .title{ /* product card box*/
+    font-size: 1.5rem;
+    color:#444;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ .container .products-container{ /* product card box*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:2rem;
+ }
+
+ .container .products-container .product{ /* product card box*/
+    text-align: center;
+    padding:3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+ }
+ .container .products-container .product img{ /* product card box*/
+    height: 20rem;
+ }
+ footer { /* footer decoration */
+    background-color: #34516c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.links, .contact, .location {
+    margin-bottom: 20px;
+}
+
+.links {
+   
+    padding: 10px;
+}
+
+.contact {
+    
+    padding: 10px;
+}
+
+.location {
+    
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .main-content {
+      width: 100%;
+    }
+  }
